@@ -61,10 +61,10 @@ namespace GamaPlatform
             return alignment switch
             {
                 Alignment.LEFT => new KeyValuePair<Vector2, Vector2>(new Vector2(bounds.Left - borderMargin - extraMargin, 0),
-                                                                     new Vector2(m_borderThickness, stageSize.y)),
+                                                                     new Vector2(2f * m_borderThickness, stageSize.y)),
 
                 Alignment.RIGHT => new KeyValuePair<Vector2, Vector2>(new Vector2(bounds.Right + borderMargin + extraMargin, 0),
-                                                                      new Vector2(m_borderThickness, stageSize.y)),
+                                                                      new Vector2(2f * m_borderThickness, stageSize.y)),
 
                 Alignment.TOP => new KeyValuePair<Vector2, Vector2>(new Vector2(0, bounds.Top + borderMargin + extraMargin),
                                                                     new Vector2(stageSize.x, m_borderThickness)),
