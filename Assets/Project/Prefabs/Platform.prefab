@@ -52,8 +52,8 @@ MonoBehaviour:
   m_spriteRenderer: {fileID: 754727024501514362}
   m_rigidbody: {fileID: 3055819303147492201}
   m_boxCollider: {fileID: 8808506688116350630}
-  m_widthRange: {x: 0.5, y: 6}
-  m_heightRange: {x: 0.1, y: 0.5}
+  m_widthRange: {x: 0.8, y: 6}
+  m_heightRange: {x: 0.1, y: 0.3}
   m_speedRange: {x: 1, y: 5}
   m_platformEffector: {fileID: -4730095885754651004}
 --- !u!212 &754727024501514362
