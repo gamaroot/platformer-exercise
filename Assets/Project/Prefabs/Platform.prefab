@@ -48,7 +48,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9c999f2ec450c914cbf58b1928304617, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_colorInContact: {r: 0, g: 0, b: 0, a: 0}
+  m_contactColor: {r: 0, g: 0.6039216, b: 0.003921569, a: 1}
   m_spriteRenderer: {fileID: 754727024501514362}
   m_rigidbody: {fileID: 3055819303147492201}
   m_boxCollider: {fileID: 8808506688116350630}

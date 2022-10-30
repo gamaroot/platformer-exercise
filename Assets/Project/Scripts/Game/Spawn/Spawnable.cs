@@ -7,7 +7,7 @@ namespace GamaPlatform
     public class Spawnable : MonoBehaviour
     {
         [Header("Properties")]
-        [SerializeField] private Color m_colorInContact;
+        [SerializeField] private Color m_contactColor;
 
         [Header("Components")]
         [SerializeField] protected SpriteRenderer m_spriteRenderer;
@@ -38,7 +38,7 @@ namespace GamaPlatform
         private void OnCollisionEnter2D(Collision2D collision)
         {
             this.m_spriteRenderer.DOKill();
-            this.m_spriteRenderer.DOColor(this.m_colorInContact, COLOR_TRANSITION_DURATION);
+            this.m_spriteRenderer.DOColor(this.m_contactColor, COLOR_TRANSITION_DURATION);
         }
 
         private void OnCollisionExit2D(Collision2D collision)
