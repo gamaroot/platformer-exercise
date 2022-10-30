@@ -236,7 +236,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_borderThickness: 1
-  m_spawnLimitMargin: 20
+  m_spawnLimitMargin: 8
   m_stageBorderLayerMask:
     serializedVersion: 2
     m_Bits: 256

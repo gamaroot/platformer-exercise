@@ -9,8 +9,8 @@ namespace GamaPlatform
         [Header("Properties")]
         [Range(0, 1f)]
         [SerializeField] private float m_borderThickness = 1f;
-        [Range(10, 20f)]
-        [SerializeField] private float m_spawnLimitMargin = 10f;
+        [Range(1f, 10f)]
+        [SerializeField] private float m_spawnLimitMargin = 5f;
         [SerializeField] private LayerMask m_stageBorderLayerMask;
         [SerializeField] private LayerMask m_spawnLimitLayerMask;
         [SerializeField] private LayerMask m_groundLayerMask;
